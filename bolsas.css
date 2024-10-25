@@ -1,0 +1,190 @@
+*{
+    /*background: radial-gradient(#FFADC3, #FFEAC3, #F7F7F7)*/
+    margin: 0;
+}
+h1{
+    background-color:#FFADC3;
+    font-family: Garamond;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    padding-top:60px;
+    color: #621931;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#FFADC3;
+    color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    background-color:#FFADC3;
+}
+.box{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color:#FFADC3;
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 24px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.menu li a:hover{
+    background: white;
+    color: #FFADC3;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*body*/
+.back{
+    background: radial-gradient(#FFADC3, #FFEAC3, #F7F7F7);
+    width: auto;
+    height: 780px;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+/*Buscador*/
+input{
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 50% de transparencia */
+    border: 1px solid #cccccc00;
+    padding: 10px;
+    font-size: 16px;
+    color: #621931;
+    outline: none;
+    /*outline-color: #FFADC3;*/
+    border-radius: 5px 5px 5px 5px;
+    padding-right: 280px;
+    margin-top: 10px;
+}
+
+.buscador{
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 5px 5px 5px 5px;
+    background-color:beige;
+}
+
+.sericon{
+    width: 60px;
+    height: 35px;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+
+button{
+    padding: 10px;
+}
+
+/*categorias*/
+
+.categoria{
+    background-color: hwb(345 77% 0%);
+    /*padding: 10px;*/
+    width: 300px;
+    height: 400px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid white; 
+
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.categoria-l{
+    margin-right: 0;
+}
+
+.categoriamini{
+    background-color: #FFF4F8;
+    opacity: 67%;
+    /*padding: 10px;*/
+    width: 300px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px #FFF4F8; 
+
+    font-size: 25px;
+    font-family:'Times New Roman';
+    color:rgb(247, 135, 154);
+    text-align: center;
+
+    display: inline-block;
+    margin-top: -8px;
+}
+
+.categoriaNADA{
+    margin: 100;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.tituloProducto{
+    font-size: 35px;
+    font-family:'Times New Roman';
+    color: #2b0210;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.artistaProducto{
+    font-size: 20px;
+    font-family:'Times New Roman';
+    color: #ff5f91;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.precio{
+    font-size: 30px;
+    font-family:'Times New Roman';
+    color: #2b0210;
+    text-align: left;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.formatoTextoProducto{
+    margin-top: 20px;
+    text-align: left;
+}
